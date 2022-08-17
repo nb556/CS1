@@ -2,17 +2,23 @@ public class Main
 {
     public static void main(String[] args)
     {
-       int n = 10;
-       int factorial = 1;
-       int factor = 1;
+        int homework = 2;
 
-       while(factor <= n)
-       {
-           factorial *= factor;
-           factor++;
-       }
+        if(homework == 2)
+        {
+            int A = 4;
+            int B = 4;
+            int AB = A + B;
 
-       System.out.println(factorial);
+            if (A == B)
+                System.out.println(AB * AB);
+            else
+                System.out.println(A + B);
+        }
+        else
+        {
 
+
+        }
     }
 }
