@@ -2,12 +2,17 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int a = 15;
-        int b = 6;
-        System.out.println ("the value of a is " + a);
-        System.out.println (b);
-        System.out.println (a-b);
-        System.out.println (a/b);
-        System.out.println ((3*a) % (3*b));
+        int grade;
+        int marks = 90;
+
+        if (marks >= 90)
+            grade = 10;
+        else if (marks >= 70)
+            grade = 9;
+        else
+            grade = 8;
+
+        System.out.println("The grade is " + grade);
+
     }
 }
