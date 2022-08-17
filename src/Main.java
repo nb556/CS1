@@ -2,17 +2,17 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int grade;
-        int marks = 90;
+       int n = 10;
+       int factorial = 1;
+       int factor = 1;
 
-        if (marks >= 90)
-            grade = 10;
-        else if (marks >= 70)
-            grade = 9;
-        else
-            grade = 8;
+       while(factor <= n)
+       {
+           factorial *= factor;
+           factor++;
+       }
 
-        System.out.println("The grade is " + grade);
+       System.out.println(factorial);
 
     }
 }
