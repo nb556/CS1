@@ -2,9 +2,16 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int homework = 3;
+        int homework = 1;
 
-        if(homework == 2)
+        if (homework == 1)
+        {
+            System.out.println("Examples of fundamental computer operations would be ADD and STORE. Examples of compound computer operations would be finding the largest or the smallest number.");
+            System.out.println("Essential features of a computer language would be for example it's simplicity, naturalness to users and it's efficiency");
+            System.out.println("The function of a compiler is to convert conventional code into Assembly, which is the language a computer would understand.");
+            System.out.println("Using constants can simplify the maintenance of the code and provide a usable version of a number like pi.");
+        }
+        else if(homework == 2)
         {
             int A = 4;
             int B = 4;
