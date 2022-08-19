@@ -5,7 +5,7 @@ public class Main {
         int n = 1000000;
         int smallest = 0;
 
-        while (found == false)
+        while (!found)
         {
             while(n > 0)
             {
