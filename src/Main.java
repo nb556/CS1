@@ -15,10 +15,9 @@ public class Main
         {
             int A = 4;
             int B = 4;
-            int AB = A + B;
 
             if (A == B)
-                System.out.println(AB * AB);
+                System.out.println((A+B) * (A+B));
             else
                 System.out.println(A + B);
         }
