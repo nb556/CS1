@@ -20,19 +20,36 @@ public class Main
             int n = 10;
             int x = 998;
             int y = 0;
+            int z = 1;
 
             while(n < 37){
-            n += 3;}
-            System.out.println(n);
+                n += 3;
+                System.out.println(n);
+            }
+
 
             while(x > 900){
                 x -= 1;
+                System.out.println(x);
             }
-            System.out.println(x);
+
 
             while(y < 20){
-
                 y += 1;
+                System.out.println(y);
+            }
+
+            while(z <= 60)
+            {
+              if(z % 3 == 0)
+              {
+                  System.out.println(9);
+              }
+              else
+              {
+                  System.out.println(7);
+              }
+              z += 1;
             }
 
         }
