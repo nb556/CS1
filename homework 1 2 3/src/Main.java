@@ -2,7 +2,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int homework = 0;
+        int homework = 3;
 
         if (homework == 1)
         {
