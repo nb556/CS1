@@ -41,6 +41,10 @@ public class Main
 
 
             while(y < 20){
+                if(y % 2)
+                    System.out.println("-1");
+                else
+                    System.out.println("1");
                 y += 1;
                 System.out.println(y);
             }
