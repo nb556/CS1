@@ -1,4 +1,5 @@
-public class Main {
+public class Main
+{
     public static void main(String[] args)
     {
         int x = 2;
@@ -14,10 +15,6 @@ public class Main {
                 result = result*x;
             }
         }
-
-            System.out.println(result);
-
-
-
+        System.out.println(result);
     }
 }
