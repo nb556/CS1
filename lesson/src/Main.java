@@ -2,7 +2,6 @@ public class Main
 {
     public static void main(String[] args)
     {
-        boolean leap;
         int year = 0;
 
         while (year <= 2100){
