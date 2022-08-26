@@ -9,7 +9,7 @@ public class Main
         int highestt = 0;
 
 
-        while ( t < 100)
+        while ( t <= 100)
         {
 
             bact1 = t*(t-20)*(t-100)+120000;
@@ -21,7 +21,7 @@ public class Main
 
             t++;
 
-            bact2 = (t+1)*((t+1)-20)*((t+1)-100)+120000;
+
 
         }
 

@@ -2,19 +2,16 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int x = 2;
-        int y = 5;
-        int result = 1;
+        boolean leap;
+        int year = 0;
 
-        while (y > 0) {
-            if (y % 2 == 0) {
-                y /= 2;
-                x *= x;}
-            else{
-                y -= 1;
-                result = result*x;
+        while (year <= 2100){
+            if ((year % 4) == 0 && ( !(year % 100 == 0) || (year % 400 == 0))) {
+                System.out.println(year);
             }
+
+            year++;
         }
-        System.out.println(result);
+
     }
 }
