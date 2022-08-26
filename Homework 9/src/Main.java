@@ -14,8 +14,8 @@ public class Main
 
             bact1 = t*(t-20)*(t-100)+120000;
 
-            if (bact1 - bact2 > highest) {
-                highest = bact2 - bact1;
+            if (bact2 - bact1 < highest) {
+                highest = bact1 - bact2;
                 highestt = t;
             }
 
