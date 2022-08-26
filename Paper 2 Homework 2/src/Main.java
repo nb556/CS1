@@ -2,7 +2,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int X = 5, Y = -7, M, RESULT;
+        int X = 5, Y = -7, M, RESULT = 0;
 
         if (Y < 0) {
             Y = -Y;
