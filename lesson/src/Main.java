@@ -2,15 +2,14 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int year = 0;
+        double[] numbers = {8.9, 5.6, 4.2, 7.7, 2};
 
-        while (year <= 2100){
-            if ((year % 4) == 0 && ( !(year % 100 == 0) || (year % 400 == 0))) {
-                System.out.println(year);
-            }
+        double smallest = numbers[0];
 
-            year++;
-        }
+        for (double n : numbers)
+            if (n < smallest)
+                smallest = n;
 
+        System.out.println(smallest);
     }
 }
