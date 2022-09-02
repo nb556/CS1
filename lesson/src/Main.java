@@ -2,14 +2,15 @@ public class Main
 {
     public static void main(String[] args)
     {
-        double[] numbers = {8.9, 5.6, 4.2, 7.7, 2};
+        int seq[] = {1,3,5,7,9};
+        boolean arith = true;
 
-        double smallest = numbers[0];
+        for (int i = 1; i < seq.length && arith; i++)
+        {
+            if (seq[i] - seq[i - 1] != seq[1] - seq [0])
+                arith = false;
+        }
 
-        for (double n : numbers)
-            if (n < smallest)
-                smallest = n;
-
-        System.out.println(smallest);
+        System.out.println(arith);
     }
 }
