@@ -5,10 +5,23 @@ public class Main
         int[] a = {1, 2, 3, 4, 5};
         int[] b = reverse(a);
 
-        for (int i = 0; i < b.length; i++)
+        for (int i : b)
         {
-            System.out.println(b[i]);
+            System.out.println(i);
         }
+
+        int[] ba = {4, 3, 2, 1};
+        int[] bb = {4, 3, 2, 1};
+
+        System.out.print(equal(ba, bb));
+
+        int[] ca = {1, 2, 1};
+        int[] cb = reverse(ca);
+
+        if (equal(ca, cb))
+            System.out.print(true);
+        else
+            System.out.print(false);
     }
 
     static int[] reverse (int[] a)
@@ -21,4 +34,19 @@ public class Main
         }
         return x;
     }
+
+    static boolean equal (int[] a, int[] b)
+    {
+        if (a.length != b.length)
+        {
+            return false;
+        }
+        for (int i = 0; i < a.length; i++)
+            if (a[i] != b[i])
+                return false;
+
+        return true;
+    }
+
+
 }
