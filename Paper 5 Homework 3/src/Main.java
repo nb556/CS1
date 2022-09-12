@@ -6,14 +6,28 @@ public class Main
         int integer = 5;
         System.out.println(contains(arr, integer));
 
+        int[] a = {5, 4, 6, 11};
+        int[] b = {20, 21, 22};
+        System.out.println(any(a, b));
     }
 
     static boolean contains (int[] array, int value)
     {
-        for (int i = 0; i < array.length; i++)
+        for (int i : array)
         {
-            if (array[i] == value)
+            if (i == value)
                 return true;
+        }
+        return false;
+    }
+
+    static boolean any (int[] a, int[] b)
+    {
+        for (int i : a)
+        {
+            for (int x : b)
+                if (x == i)
+                    return true;
         }
         return false;
     }
