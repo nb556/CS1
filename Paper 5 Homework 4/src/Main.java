@@ -18,10 +18,7 @@ public class Main
         int[] ca = {1, 2, 1};
         int[] cb = reverse(ca);
 
-        if (equal(ca, cb))
-            System.out.print(true);
-        else
-            System.out.print(false);
+        System.out.print(equal(ca, cb));
     }
 
     static int[] reverse (int[] a)
