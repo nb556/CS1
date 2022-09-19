@@ -6,9 +6,11 @@ public class Main
         int[] b = {7, 7, 7, 7, 7, 7};
         int X = 3;
 
-        for (int i = 0; i < b.length; i++)
+        REMOVE(a, X, b);
+
+        for (int i : b)
         {
-            System.out.println(REMOVE(a, X, b)[i]);
+            System.out.println(i);
         }
     }
 
