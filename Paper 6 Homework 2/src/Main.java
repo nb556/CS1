@@ -12,9 +12,8 @@ public class Main
         {
             String OPERATION = inputString ("give operation: ");
             if (Objects.equals(OPERATION, "end"))
-            {
                 RUNNING = false;
-            }
+
             else
             {
                 int A = inputInt("give first integer operand: ");
