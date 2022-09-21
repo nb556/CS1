@@ -3,7 +3,7 @@ public class Main
     public static void main(String[] args)
     {
         int[] a = {1, 2, 3, 3, 3, 6, 7, 8, 9, 10};
-        int[] b = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        int[] b = {6, 6, 6, 6, 6, 6, 6, 6, 6, 6};
         int X = 3;
 
         REMOVE(a, X, b);
@@ -16,15 +16,20 @@ public class Main
 
     static int[] REMOVE(int[] IN, int X, int[] OUT)
     {
+        int j = 0;
 
-
-        for (int i = 0, j = 0; i < IN.length; i++)
+        for (int i = 0; i < IN.length; i++)
         {
             if (IN[i] != X)
             {
                 OUT[j] = IN[i];
                 j++;
             }
+        }
+        while (j < OUT.length)
+        {
+            OUT[j] = 0;
+            j++;
         }
 
         return OUT;
