@@ -18,11 +18,11 @@ public class Main
     {
         int j = 0;
 
-        for (int i = 0; i < IN.length; i++)
+        for (int i : IN)
         {
-            if (IN[i] != X)
+            if (i != X)
             {
-                OUT[j] = IN[i];
+                OUT[j] = i;
                 j++;
             }
         }
