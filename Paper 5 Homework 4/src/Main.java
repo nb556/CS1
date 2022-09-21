@@ -6,9 +6,8 @@ public class Main
         int[] b = reverse(a);
 
         for (int i : b)
-        {
             System.out.println(i);
-        }
+        
 
         int[] ba = {4, 3, 2, 1};
         int[] bb = {4, 3, 2, 1};
