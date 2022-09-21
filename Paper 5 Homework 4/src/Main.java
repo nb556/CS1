@@ -6,9 +6,8 @@ public class Main
         int[] b = reverse(a);
 
         for (int i : b)
-        {
             System.out.println(i);
-        }
+        
 
         int[] ba = {4, 3, 2, 1};
         int[] bb = {4, 3, 2, 1};
@@ -35,9 +34,8 @@ public class Main
     static boolean equal (int[] a, int[] b)
     {
         if (a.length != b.length)
-        {
             return false;
-        }
+        
         for (int i = 0; i < a.length; i++)
             if (a[i] != b[i])
                 return false;
