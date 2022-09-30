@@ -12,9 +12,7 @@ public class Main
             if (arr[i] < m)
                 smaller[i] = arr[i];
             else if (arr[i] > m)
-            {
                 larger[i] = arr[i];
-            }
         }
     }
 }
