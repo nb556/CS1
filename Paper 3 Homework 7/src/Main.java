@@ -5,7 +5,7 @@ public class Main
         boolean A = true;
         boolean B = false;
 
-        if (!A && !B || A &&B)
+        if (!A && !B || A && B)
             System.out.println("true");
         else
             System.out.println("false");
